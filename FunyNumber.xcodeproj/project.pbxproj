@@ -13,6 +13,7 @@
 		99F0244F1F29D7A600ECFE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F0244E1F29D7A600ECFE94 /* Assets.xcassets */; };
 		99F024521F29D7A600ECFE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F024501F29D7A600ECFE94 /* LaunchScreen.storyboard */; };
 		99F0245A1F29E13200ECFE94 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F024591F29E13200ECFE94 /* bg.jpg */; };
+		99F0245C1F29EA7B00ECFE94 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F0245B1F29EA7B00ECFE94 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99F024511F29D7A600ECFE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99F024531F29D7A600ECFE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F024591F29E13200ECFE94 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../Desktop/Images/bg.jpg; sourceTree = "<group>"; };
+		99F0245B1F29EA7B00ECFE94 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				99F024501F29D7A600ECFE94 /* LaunchScreen.storyboard */,
 				99F024531F29D7A600ECFE94 /* Info.plist */,
 				99F024591F29E13200ECFE94 /* bg.jpg */,
+				99F0245B1F29EA7B00ECFE94 /* MyClass.swift */,
 			);
 			path = FunyNumber;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				99F0244A1F29D7A600ECFE94 /* ViewController.swift in Sources */,
 				99F024481F29D7A600ECFE94 /* AppDelegate.swift in Sources */,
+				99F0245C1F29EA7B00ECFE94 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
