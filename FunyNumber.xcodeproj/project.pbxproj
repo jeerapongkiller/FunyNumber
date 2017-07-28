@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996B3D421F2AD76F00A670ED /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 996B3D411F2AD76F00A670ED /* README.md */; };
 		99F024481F29D7A600ECFE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F024471F29D7A600ECFE94 /* AppDelegate.swift */; };
 		99F0244A1F29D7A600ECFE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F024491F29D7A600ECFE94 /* ViewController.swift */; };
 		99F0244D1F29D7A600ECFE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F0244B1F29D7A600ECFE94 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		996B3D411F2AD76F00A670ED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		99F024441F29D7A600ECFE94 /* FunyNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunyNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F024471F29D7A600ECFE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99F024491F29D7A600ECFE94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		99F0243B1F29D7A600ECFE94 = {
 			isa = PBXGroup;
 			children = (
+				996B3D411F2AD76F00A670ED /* README.md */,
 				99F024461F29D7A600ECFE94 /* FunyNumber */,
 				99F024451F29D7A600ECFE94 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				99F0244A1F29D7A600ECFE94 /* ViewController.swift in Sources */,
 				99F024481F29D7A600ECFE94 /* AppDelegate.swift in Sources */,
+				996B3D421F2AD76F00A670ED /* README.md in Sources */,
 				99F0245C1F29EA7B00ECFE94 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				99F024581F29D7A600ECFE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

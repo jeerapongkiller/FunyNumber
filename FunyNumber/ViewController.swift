@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         let myClass = MyClass()
         let intNewNumber = myClass.decreaseNumber(intNumber: intNumber!)
         print("Number ==> \(intNewNumber)")
-        
+        showNumber(intNumber: intNewNumber)
         
         
     }//DecButton
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         let myClass = MyClass()
         let intNewNumber = myClass.increaseNumber(intNumber: intNumber!)
         print("Number ==> \(intNewNumber)")
-        
+        showNumber(intNumber: intNewNumber)
         
         
         
@@ -63,6 +63,13 @@ class ViewController: UIViewController {
         
     
     
+    } // ViweDidLoad
+    
+    func showNumber(intNumber: Int) -> Void {
+        
+        numberLabel.text = "\(intNumber)"
+        
+        
     }
     
     
